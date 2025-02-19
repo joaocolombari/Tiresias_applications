@@ -1,0 +1,13 @@
+# Target labels
+ acc
+# Source files and their labels
+C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/CMakeFiles/acc
+C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/CMakeFiles/acc.rule
+C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/CMakeFiles/acc-complete.rule
+C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/acc-prefix/src/acc-stamp/acc-build.rule
+C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/acc-prefix/src/acc-stamp/acc-configure.rule
+C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/acc-prefix/src/acc-stamp/acc-download.rule
+C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/acc-prefix/src/acc-stamp/acc-install.rule
+C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/acc-prefix/src/acc-stamp/acc-mkdir.rule
+C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/acc-prefix/src/acc-stamp/acc-patch.rule
+C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/acc-prefix/src/acc-stamp/acc-update.rule

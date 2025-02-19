@@ -1,0 +1,7 @@
+default: acc
+build_dir: C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1
+domains:
+  - name: acc
+    build_dir: C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/acc
+flash_order:
+  - acc

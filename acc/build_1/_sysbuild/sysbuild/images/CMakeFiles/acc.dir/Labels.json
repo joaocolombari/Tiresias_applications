@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/CMakeFiles/acc"
+		},
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/CMakeFiles/acc.rule"
+		},
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/CMakeFiles/acc-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/acc-prefix/src/acc-stamp/acc-build.rule"
+		},
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/acc-prefix/src/acc-stamp/acc-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/acc-prefix/src/acc-stamp/acc-download.rule"
+		},
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/acc-prefix/src/acc-stamp/acc-install.rule"
+		},
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/acc-prefix/src/acc-stamp/acc-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/acc-prefix/src/acc-stamp/acc-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/acc/build_1/_sysbuild/sysbuild/images/acc-prefix/src/acc-stamp/acc-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"acc"
+		],
+		"name" : "acc"
+	}
+}
