@@ -1379,7 +1379,6 @@ zephyr_udc0: &usbd {
   compatible = "bosch,bmi270";
         status = "okay";
   reg = <0x68>;
-  zephyr,deferred-init;
  };
 };
 &pinctrl {

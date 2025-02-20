@@ -326,7 +326,7 @@ set_target_properties(${DEVICETREE_TARGET} PROPERTIES "DT_PROP|/soc/peripheral@5
 set_target_properties(${DEVICETREE_TARGET} PROPERTIES "DT_PROP|/soc/peripheral@50000000/i2c@9000/bmi270@68|status" "okay")
 set_target_properties(${DEVICETREE_TARGET} PROPERTIES "DT_PROP|/soc/peripheral@50000000/i2c@9000/bmi270@68|compatible" "bosch,bmi270;")
 set_target_properties(${DEVICETREE_TARGET} PROPERTIES "DT_PROP|/soc/peripheral@50000000/i2c@9000/bmi270@68|reg" "104;")
-set_target_properties(${DEVICETREE_TARGET} PROPERTIES "DT_PROP|/soc/peripheral@50000000/i2c@9000/bmi270@68|zephyr,deferred-init" "True")
+set_target_properties(${DEVICETREE_TARGET} PROPERTIES "DT_PROP|/soc/peripheral@50000000/i2c@9000/bmi270@68|zephyr,deferred-init" "False")
 set_target_properties(${DEVICETREE_TARGET} PROPERTIES "DT_REG|/soc/peripheral@50000000/i2c@9000/bmi270@68|NUM" "1")
 set_target_properties(${DEVICETREE_TARGET} PROPERTIES "DT_REG|/soc/peripheral@50000000/i2c@9000/bmi270@68|ADDR" "0x68;")
 set_target_properties(${DEVICETREE_TARGET} PROPERTIES "DT_REG|/soc/peripheral@50000000/i2c@9000/bmi270@68|SIZE" "NONE;")

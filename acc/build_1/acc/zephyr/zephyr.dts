@@ -200,7 +200,6 @@
 					compatible = "bosch,bmi270";
 					status = "okay";
 					reg = < 0x68 >;
-					zephyr,deferred-init;
 				};
 			};
 			spi1: spi@9000 {
