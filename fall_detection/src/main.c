@@ -19,6 +19,9 @@
 #define LED_NODE DT_ALIAS(led0)
 static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED_NODE, gpios);
 
+/* Semaphore for signaling fall detection */
+K_SEM_DEFINE(fall_sem, 0, 1);
+
 const struct device *dev;
 
 /* Function to calculate total acceleration in m/s2 */
@@ -30,7 +33,7 @@ double compute_total_acceleration(struct sensor_value *acc) {
 }
 
 /* Fall Detection Logic */
-void detect_fall(void) {
+void detect_fall_thread(void) {
 
     // Aqui vou dar o primeiro fetch e esperar ele acentar
     sensor_sample_fetch(dev);
@@ -75,16 +78,26 @@ void detect_fall(void) {
                 felt = true;
             }
 
-            // printf("felt variable is %d \n", felt);
-
             if (felt) {
                 /* Final Decision: Fall Confirmed */
-                gpio_pin_configure_dt(&led, GPIO_OUTPUT_ACTIVE);
                 printf("[CRITICAL] Fall Detected!!\n");
-                // TODO: Trigger BLE alert, buzzer, or emergency response
-                return;
+
+                k_sem_give(&fall_sem);  // Signal LED thread to turn on LED
+
+                felt = false;  // Reset flag for next cycle
             }
         }
+    }
+}
+
+void led_thread(void) {
+    gpio_pin_configure_dt(&led, GPIO_OUTPUT_INACTIVE);
+
+    while (1) {
+        k_sem_take(&fall_sem, K_FOREVER);  // Wait until a fall is detected
+        gpio_pin_set_dt(&led, 1);
+        k_sleep(K_SECONDS(5));  // Keep LED on for 5 seconds
+        gpio_pin_set_dt(&led, 0);
     }
 }
 
@@ -129,9 +142,12 @@ int main(void) {
     sensor_attr_set(dev, SENSOR_CHAN_ACCEL_XYZ, SENSOR_ATTR_SAMPLING_FREQUENCY, &sampling_freq);
 
     printf("Fall Detection System Initialized!\n");
-    
-    /* Start Fall Detection */
-    detect_fall();
 
     return 0;
 }
+
+/* Define threads */
+K_THREAD_DEFINE(led_tid, 1024, led_thread, NULL, NULL, NULL, 2, 0, 0);
+K_THREAD_DEFINE(fall_tid, 1024, detect_fall_thread, NULL, NULL, NULL, 1, 0, 0);
+
+/* In Zephyr, main thread is priority zero by default, so no need to define it! */
