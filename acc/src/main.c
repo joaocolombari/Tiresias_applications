@@ -38,7 +38,7 @@ void detect_fall(void) {
 
     struct sensor_value acc[3];
     static bool in_free_fall = false;
-    static bool caiu_morto = false;
+    static bool felt = false;
     static int64_t fall_start_time = 0;
 
     while (1) {
@@ -72,15 +72,15 @@ void detect_fall(void) {
                     printf("[INFO] Movement detected after fall. False alarm.\n");
                     break;
                 }
-                caiu_morto = true;
+                felt = true;
             }
 
-            // printf("caiu morto is %d \n", caiu_morto);
+            // printf("felt variable is %d \n", felt);
 
-            if (caiu_morto) {
+            if (felt) {
                 /* Final Decision: Fall Confirmed */
                 gpio_pin_configure_dt(&led, GPIO_OUTPUT_ACTIVE);
-                printf("[CRITICAL] FUDEU O VELHO CAIU LIGA PRO SAMU...\n");
+                printf("[CRITICAL] Fall Detected!!\n");
                 // TODO: Trigger BLE alert, buzzer, or emergency response
                 return;
             }
