@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/CMakeFiles/fall_detection"
+		},
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/CMakeFiles/fall_detection.rule"
+		},
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/CMakeFiles/fall_detection-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-build.rule"
+		},
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-download.rule"
+		},
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-install.rule"
+		},
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fall_detection"
+		],
+		"name" : "fall_detection"
+	}
+}

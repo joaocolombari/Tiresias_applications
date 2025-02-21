@@ -1,0 +1,7 @@
+default: fall_detection
+build_dir: C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build
+domains:
+  - name: fall_detection
+    build_dir: C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection
+flash_order:
+  - fall_detection

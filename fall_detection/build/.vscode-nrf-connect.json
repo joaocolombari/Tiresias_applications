@@ -15,5 +15,7 @@
   "kconfigFragments": [],
   "snippets": [],
   "dtcOverlays": [],
-  "extraDtcOverlays": []
+  "extraDtcOverlays": [
+    "nrf5340dk_nrf5340_cpuapp.overlay"
+  ]
 }
