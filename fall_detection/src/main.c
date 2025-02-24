@@ -11,8 +11,8 @@
 #include <stdio.h>
 #include <math.h>
 
-#include "led.h"
-#include "fall_detection.h"
+#include "led/led.h"
+#include "fall_detection/fall_detection.h"
 
 /* 
     Semaphore for signaling fall detection:

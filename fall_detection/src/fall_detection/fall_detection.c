@@ -1,8 +1,5 @@
 #include "fall_detection.h"
-#include "led.h"
-
-/* Declaracao do semaforo */
-extern struct k_sem fall_sem; 
+#include "../led/led.h"
 
 const struct device *dev;
 

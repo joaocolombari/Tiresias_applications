@@ -222,7 +222,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=acc
+CMAKE_PROJECT_NAME:STATIC=fall_detection
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=3.7.99
@@ -427,6 +427,15 @@ acc_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 acc_SOURCE_DIR:STATIC=C:/Users/Colombari/Documents/Tiresias_applications/fall_detection
+
+//Value Computed by CMake
+fall_detection_BINARY_DIR:STATIC=C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection
+
+//Value Computed by CMake
+fall_detection_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+fall_detection_SOURCE_DIR:STATIC=C:/Users/Colombari/Documents/Tiresias_applications/fall_detection
 
 
 ########################

@@ -5,6 +5,9 @@
 #include <zephyr/device.h>
 #include <zephyr/drivers/gpio.h>
 
+/* Declaracao do semaforo */
+extern struct k_sem fall_sem;
+
 /* Declaracoes das funcoes */
 
 int led_init(void);

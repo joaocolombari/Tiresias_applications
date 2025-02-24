@@ -5,6 +5,6 @@ project(fall_detection)
 
 target_sources(app PRIVATE 
     src/main.c
-    src/led.c
-    src/fall_detection.c
+    src/led/led.c
+    src/fall_detection/fall_detection.c
 )

@@ -1,8 +1,5 @@
 #include "led.h"
 
-/* Declaracao do semaforo */
-extern struct k_sem fall_sem;
-
 #define LED_NODE DT_ALIAS(led0)
 static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED_NODE, gpios);
 

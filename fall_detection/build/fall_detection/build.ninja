@@ -195,21 +195,21 @@ build CMakeFiles/app.dir/src/main.c.obj: C_COMPILER__app_MinSizeRel C$:/Users/Co
   OBJECT_DIR = CMakeFiles\app.dir
   OBJECT_FILE_DIR = CMakeFiles\app.dir\src
 
-build CMakeFiles/app.dir/src/led.c.obj: C_COMPILER__app_MinSizeRel C$:/Users/Colombari/Documents/Tiresias_applications/fall_detection/src/led.c || cmake_object_order_depends_target_app
+build CMakeFiles/app.dir/src/led/led.c.obj: C_COMPILER__app_MinSizeRel C$:/Users/Colombari/Documents/Tiresias_applications/fall_detection/src/led/led.c || cmake_object_order_depends_target_app
   DEFINES = -DKERNEL -DK_HEAP_MEM_POOL_SIZE=0 -DNRF5340_XXAA_APPLICATION -DNRF_SKIP_FICR_NS_COPY_TO_RAM -DPICOLIBC_DOUBLE_PRINTF_SCANF -DUSE_PARTITION_MANAGER=1 -D__LINUX_ERRNO_EXTENSIONS__ -D__PROGRAM_START -D__ZEPHYR__=1
-  DEP_FILE = CMakeFiles\app.dir\src\led.c.obj.d
+  DEP_FILE = CMakeFiles\app.dir\src\led\led.c.obj.d
   FLAGS = -Os -DNDEBUG -fno-strict-aliasing -Os -imacros C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/include/generated/zephyr/autoconf.h -fno-common -g -gdwarf-4 -fdiagnostics-color=always -mcpu=cortex-m33 -mthumb -mabi=aapcs -mfp16-format=ieee -mtp=soft --sysroot=C:/ncs/toolchains/b620d30767/opt/zephyr-sdk/arm-zephyr-eabi/arm-zephyr-eabi -imacros C:/ncs/v2.9.0/zephyr/include/zephyr/toolchain/zephyr_stdint.h -Wall -Wformat -Wformat-security -Wno-format-zero-length -Wdouble-promotion -Wno-pointer-sign -Wpointer-arith -Wexpansion-to-defined -Wno-unused-but-set-variable -Werror=implicit-int -fno-pic -fno-pie -fno-asynchronous-unwind-tables -ftls-model=local-exec -fno-reorder-functions --param=min-pagesize=0 -fno-defer-pop -fmacro-prefix-map=C:/Users/Colombari/Documents/Tiresias_applications/fall_detection=CMAKE_SOURCE_DIR -fmacro-prefix-map=C:/ncs/v2.9.0/zephyr=ZEPHYR_BASE -fmacro-prefix-map=C:/ncs/v2.9.0=WEST_TOPDIR -ffunction-sections -fdata-sections -specs=picolibc.specs -std=c99
   INCLUDES = -IC:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/include/generated/zephyr -IC:/ncs/v2.9.0/zephyr/include -IC:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/include/generated -IC:/ncs/v2.9.0/zephyr/soc/nordic -IC:/ncs/v2.9.0/zephyr/soc/nordic/nrf53/. -IC:/ncs/v2.9.0/zephyr/soc/nordic/common/. -IC:/ncs/v2.9.0/nrf/include -IC:/ncs/v2.9.0/nrf/tests/include -IC:/ncs/v2.9.0/modules/hal/cmsis/CMSIS/Core/Include -IC:/ncs/v2.9.0/zephyr/modules/cmsis/. -IC:/ncs/v2.9.0/modules/hal/nordic/nrfx -IC:/ncs/v2.9.0/modules/hal/nordic/nrfx/drivers/include -IC:/ncs/v2.9.0/modules/hal/nordic/nrfx/mdk -IC:/ncs/v2.9.0/zephyr/modules/hal_nordic/nrfx/. -isystem C:/ncs/v2.9.0/zephyr/lib/libc/common/include -isystem C:/ncs/v2.9.0/nrfxlib/crypto/nrf_cc312_platform/include
   OBJECT_DIR = CMakeFiles\app.dir
-  OBJECT_FILE_DIR = CMakeFiles\app.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\app.dir\src\led
 
-build CMakeFiles/app.dir/src/fall_detection.c.obj: C_COMPILER__app_MinSizeRel C$:/Users/Colombari/Documents/Tiresias_applications/fall_detection/src/fall_detection.c || cmake_object_order_depends_target_app
+build CMakeFiles/app.dir/src/fall_detection/fall_detection.c.obj: C_COMPILER__app_MinSizeRel C$:/Users/Colombari/Documents/Tiresias_applications/fall_detection/src/fall_detection/fall_detection.c || cmake_object_order_depends_target_app
   DEFINES = -DKERNEL -DK_HEAP_MEM_POOL_SIZE=0 -DNRF5340_XXAA_APPLICATION -DNRF_SKIP_FICR_NS_COPY_TO_RAM -DPICOLIBC_DOUBLE_PRINTF_SCANF -DUSE_PARTITION_MANAGER=1 -D__LINUX_ERRNO_EXTENSIONS__ -D__PROGRAM_START -D__ZEPHYR__=1
-  DEP_FILE = CMakeFiles\app.dir\src\fall_detection.c.obj.d
+  DEP_FILE = CMakeFiles\app.dir\src\fall_detection\fall_detection.c.obj.d
   FLAGS = -Os -DNDEBUG -fno-strict-aliasing -Os -imacros C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/include/generated/zephyr/autoconf.h -fno-common -g -gdwarf-4 -fdiagnostics-color=always -mcpu=cortex-m33 -mthumb -mabi=aapcs -mfp16-format=ieee -mtp=soft --sysroot=C:/ncs/toolchains/b620d30767/opt/zephyr-sdk/arm-zephyr-eabi/arm-zephyr-eabi -imacros C:/ncs/v2.9.0/zephyr/include/zephyr/toolchain/zephyr_stdint.h -Wall -Wformat -Wformat-security -Wno-format-zero-length -Wdouble-promotion -Wno-pointer-sign -Wpointer-arith -Wexpansion-to-defined -Wno-unused-but-set-variable -Werror=implicit-int -fno-pic -fno-pie -fno-asynchronous-unwind-tables -ftls-model=local-exec -fno-reorder-functions --param=min-pagesize=0 -fno-defer-pop -fmacro-prefix-map=C:/Users/Colombari/Documents/Tiresias_applications/fall_detection=CMAKE_SOURCE_DIR -fmacro-prefix-map=C:/ncs/v2.9.0/zephyr=ZEPHYR_BASE -fmacro-prefix-map=C:/ncs/v2.9.0=WEST_TOPDIR -ffunction-sections -fdata-sections -specs=picolibc.specs -std=c99
   INCLUDES = -IC:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/include/generated/zephyr -IC:/ncs/v2.9.0/zephyr/include -IC:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/include/generated -IC:/ncs/v2.9.0/zephyr/soc/nordic -IC:/ncs/v2.9.0/zephyr/soc/nordic/nrf53/. -IC:/ncs/v2.9.0/zephyr/soc/nordic/common/. -IC:/ncs/v2.9.0/nrf/include -IC:/ncs/v2.9.0/nrf/tests/include -IC:/ncs/v2.9.0/modules/hal/cmsis/CMSIS/Core/Include -IC:/ncs/v2.9.0/zephyr/modules/cmsis/. -IC:/ncs/v2.9.0/modules/hal/nordic/nrfx -IC:/ncs/v2.9.0/modules/hal/nordic/nrfx/drivers/include -IC:/ncs/v2.9.0/modules/hal/nordic/nrfx/mdk -IC:/ncs/v2.9.0/zephyr/modules/hal_nordic/nrfx/. -isystem C:/ncs/v2.9.0/zephyr/lib/libc/common/include -isystem C:/ncs/v2.9.0/nrfxlib/crypto/nrf_cc312_platform/include
   OBJECT_DIR = CMakeFiles\app.dir
-  OBJECT_FILE_DIR = CMakeFiles\app.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\app.dir\src\fall_detection
 
 
 # =============================================================================
@@ -219,7 +219,7 @@ build CMakeFiles/app.dir/src/fall_detection.c.obj: C_COMPILER__app_MinSizeRel C$
 #############################################
 # Link the static library app\libapp.a
 
-build app/libapp.a: C_STATIC_LIBRARY_LINKER__app_MinSizeRel CMakeFiles/app.dir/src/main.c.obj CMakeFiles/app.dir/src/led.c.obj CMakeFiles/app.dir/src/fall_detection.c.obj || zephyr/driver_validation_h_target zephyr/kobj_types_h_target zephyr/syscall_list_h_target zephyr/zephyr_generated_headers
+build app/libapp.a: C_STATIC_LIBRARY_LINKER__app_MinSizeRel CMakeFiles/app.dir/src/main.c.obj CMakeFiles/app.dir/src/led/led.c.obj CMakeFiles/app.dir/src/fall_detection/fall_detection.c.obj || zephyr/driver_validation_h_target zephyr/kobj_types_h_target zephyr/syscall_list_h_target zephyr/zephyr_generated_headers
   LANGUAGE_COMPILE_FLAGS = -Os -DNDEBUG
   OBJECT_DIR = CMakeFiles\app.dir
   POST_BUILD = cd .

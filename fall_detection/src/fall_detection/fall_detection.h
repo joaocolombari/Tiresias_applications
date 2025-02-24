@@ -14,6 +14,9 @@
 #define INACTIVITY_TIME_MS 3000         // Time of inactivity after impact
 #define SAMPLING_PERIOD_MS 10           // 100Hz sampling (10ms period)
 
+/* Declaracao do semaforo */
+extern struct k_sem fall_sem; 
+
 /* Declaracoes das funcoes */
 
 double compute_total_acceleration(struct sensor_value *acc);
