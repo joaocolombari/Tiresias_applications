@@ -1,0 +1,27 @@
+[00:00:00.455,322] <dbg> bmi270: write_config_file: writing config file max_fifo
+*** Booting nRF Connect SDK v2.9.0-7787b2649840 ***
+*** Using Zephyr OS v3.7.99-1f8f3dc29142 ***
+[00:00:00.525,634] <inf> BLE_MODULE: Starting BLE module
+
+[00:00:00.525,634] <inf> BLE_MODULE: Callbacks okay
+
+[00:00:00.526,519] <err> os: ***** BUS FAULT *****
+[00:00:00.526,519] <err> os:   Instruction bus error
+[00:00:00.526,519] <err> os: r0/a1:  0x00000000  r1/a2:  0x0000003c  r2/a3:  0x00000000
+[00:00:00.526,550] <err> os: r3/a4:  0x01460abb r12/ip:  0x48019808 r14/lr:  0x00001b97
+[00:00:00.526,550] <err> os:  xpsr:  0x01000000
+[00:00:00.526,550] <err> os: Faulting instruction address (r15/pc): 0x01460aba
+[00:00:00.526,580] <err> os: >>> ZEPHYR FATAL ERROR 27: Unknown error on CPU 0
+[00:00:00.526,611] <err> os: Current thread: 0x20000710 (unknown)
+[00:00:00.610,778] <err> os: Halting system
+
+
+
+
+
+
+
+
+
+
+

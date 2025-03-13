@@ -1,3 +1,9 @@
+//  //  //  //  //  //  //  //  //  //  //  //
+//  Tiresias Hearing Device Project         //
+//  University of Sao Paulo                 //
+//  Author: Joao Victor Colombari Carlet    //
+//  //  //  //  //  //  //  //  //  //  //  //
+
 #include "fall_detection.h"
 #include "../led/led.h"
 

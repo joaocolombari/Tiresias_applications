@@ -1,13 +1,13 @@
 # Target labels
  fall_detection
 # Source files and their labels
-C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/CMakeFiles/fall_detection
-C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/CMakeFiles/fall_detection.rule
-C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/CMakeFiles/fall_detection-complete.rule
-C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-build.rule
-C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-configure.rule
-C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-download.rule
-C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-install.rule
-C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-mkdir.rule
-C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-patch.rule
-C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-update.rule
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/CMakeFiles/fall_detection
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/CMakeFiles/fall_detection.rule
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/CMakeFiles/fall_detection-complete.rule
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-build.rule
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-configure.rule
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-download.rule
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-install.rule
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-mkdir.rule
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-patch.rule
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/_sysbuild/sysbuild/images/fall_detection-prefix/src/fall_detection-stamp/fall_detection-update.rule

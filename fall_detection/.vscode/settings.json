@@ -2,6 +2,8 @@
     "files.associations": {
         "type_traits": "c",
         "led.h": "c",
-        "gpio.h": "c"
+        "gpio.h": "c",
+        "ble_service.h": "c",
+        "device.h": "c"
     }
 }

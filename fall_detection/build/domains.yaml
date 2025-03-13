@@ -1,7 +1,10 @@
 default: fall_detection
-build_dir: C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build
+build_dir: /Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build
 domains:
   - name: fall_detection
-    build_dir: C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection
+    build_dir: /Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection
+  - name: ipc_radio
+    build_dir: /Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/ipc_radio
 flash_order:
+  - ipc_radio
   - fall_detection

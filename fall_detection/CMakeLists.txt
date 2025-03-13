@@ -7,4 +7,8 @@ target_sources(app PRIVATE
     src/main.c
     src/led/led.c
     src/fall_detection/fall_detection.c
+    src/BLE/ble_service.c
 )
+
+# NORDIC SDK APP END
+zephyr_library_include_directories(.)

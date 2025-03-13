@@ -1,3 +1,9 @@
+//  //  //  //  //  //  //  //  //  //  //  //
+//  Tiresias Hearing Device Project         //
+//  University of Sao Paulo                 //
+//  Author: Joao Victor Colombari Carlet    //
+//  //  //  //  //  //  //  //  //  //  //  //
+
 #include "led.h"
 
 #define LED_NODE DT_ALIAS(led0)

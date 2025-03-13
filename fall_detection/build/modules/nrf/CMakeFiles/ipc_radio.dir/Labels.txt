@@ -1,0 +1,13 @@
+# Target labels
+ ipc_radio
+# Source files and their labels
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/modules/nrf/CMakeFiles/ipc_radio
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/modules/nrf/CMakeFiles/ipc_radio.rule
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/modules/nrf/CMakeFiles/ipc_radio-complete.rule
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp/ipc_radio-build.rule
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp/ipc_radio-configure.rule
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp/ipc_radio-download.rule
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp/ipc_radio-install.rule
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp/ipc_radio-mkdir.rule
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp/ipc_radio-patch.rule
+/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp/ipc_radio-update.rule

@@ -1,8 +1,8 @@
-# Install script for directory: C:/ncs/v2.9.0/zephyr/subsys
+# Install script for directory: /opt/nordic/ncs/v2.9.0/zephyr/subsys
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/Zephyr-Kernel")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,106 +34,111 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/ncs/toolchains/b620d30767/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "/opt/nordic/ncs/toolchains/b8efef2ad5/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/canbus/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/canbus/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/debug/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/debug/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/fb/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/fb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/fs/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/fs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/ipc/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/ipc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/logging/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/logging/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/mem_mgmt/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/mem_mgmt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/mgmt/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/mgmt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/modbus/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/modbus/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/pm/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/pm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/portability/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/portability/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/random/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/random/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/rtio/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/rtio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/sd/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/sd/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/stats/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/stats/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/storage/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/storage/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/task_wdt/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/task_wdt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/testsuite/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/testsuite/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/tracing/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/tracing/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Colombari/Documents/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/usb/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/usb/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/joaovitor/Documents/programming/Tiresias_applications/fall_detection/build/fall_detection/zephyr/subsys/bluetooth/cmake_install.cmake")
 endif()
 

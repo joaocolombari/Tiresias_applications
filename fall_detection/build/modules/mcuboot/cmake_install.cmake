@@ -1,8 +1,8 @@
-# Install script for directory: C:/ncs/v2.9.0/bootloader/mcuboot/boot/zephyr/sysbuild
+# Install script for directory: /opt/nordic/ncs/v2.9.0/bootloader/mcuboot/boot/zephyr/sysbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/sysbuild_toplevel")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
